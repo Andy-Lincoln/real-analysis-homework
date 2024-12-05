@@ -19,10 +19,9 @@ t_values = np.linspace(-1, 1, 400)
 f_values = [f(t) for t in t_values]
 
 # Plot the function f(t)
-plt.plot(t_values, f_values, label=r'$f(t) = \int_0^{2\pi} |\sin(x) + t\cos(x)|^2 \, dx$')
+plt.plot(t_values, f_values, label=r'$\phi(t) = \int_0^{2\pi} |\sin(x) + t\cos(x)|^2 \, dx$')
 plt.xlabel('t')
 plt.ylabel('f(t)')
-plt.title('Plot of f(t) for t in (-1, 1)')
 plt.legend()
 plt.grid(True)
 plt.show()
