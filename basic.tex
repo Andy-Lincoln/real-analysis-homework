@@ -89,19 +89,18 @@ $(0,1) \cap \mathbb{Q}$ can be viewed as an infinite union of set
 $$
 E_{k} = \left\{\frac{m}{k}: \operatorname{gcd}(m,k)=1, m<k \right\}.
 $$
-
 More interesting and important sets are
 $$
 \bigcap_{i=1} \bigcup_{k=i}^{\infty} A_{k}
 $$
-and
+representing elements appeared in $A_{k}$ for infinite $k$ and
 \begin{equation}
 \label{basic_set2}
     \bigcup_{i=1} \bigcap_{k=i}^{\infty} A_{k}
 \end{equation}
-which represents "elements appeared in $A_{k}$ for infinite $k$" and "elements appeared in $A_{k}$ for all but finite $k$" respectively.
+representing elements appeared in $A_{k}$ for all but finite $k$.
 
-For example, we can reinterpret the set of points where $f_{k}(x)$ converges to $f(x)$ pointwise into
+\paragraph{Application.} We can reinterpret the set of points where $f_{k}(x)$ converges to $f(x)$ pointwise into
 \begin{equation}
     \label{pointwiseSet}
     \bigcap_{n=1} \boxed{\bigcup_{i=1} \bigcap_{k\geq i} \left\{x: |f_{k}(x)-f(x)|<\frac{1}{n}\right\}}
